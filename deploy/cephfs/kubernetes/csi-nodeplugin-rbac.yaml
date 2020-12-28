@@ -32,7 +32,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: cephfs-csi-nodeplugin
-    namespace: default
+    namespace: vsfs-test
 roleRef:
   kind: ClusterRole
   name: cephfs-csi-nodeplugin
